@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 반응형 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIPS | 김지은</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHZRE6WE26"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DHZRE6WE26');
+    </script>
+    <!-- 바로가기 아이콘-->
+    <link rel="shortcut icon" href="/vips/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/vips/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="/vips/images/apple-touch-icon.png">
+    <meta name="msapplication-TileImage" content="/vips/images/favicon.ico">
+    <!-- SEO 최적화 -->
+    <meta name="description" content="웹 퍼블리셔 김지은 포트폴리오" />
+    <meta property="og:locale" content="ko_KR" />
+    <meta property="og:site_name" content="VIPS | 김지은" />
+    <meta property="og:url" content="//kje0517.dothome.co.kr/vips"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="VIPS | 김지은" />
+    <meta property="og:description" content="My No.1 Steakhouse VIPS" />
+    <meta property="og:image" content="//kje0517.dothome.co.kr/vips/images/og-img.jpg" />
+    <!-- 전화안걸리게 하는 설정 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- Reset & Font -->
+    <link rel="stylesheet" href="/vips/css/reset.css?ver=<?php echo time(); ?>">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Plugin Style -->
+    <link rel="stylesheet" href="/vips/css/swiper.min.css">
+    <link rel="stylesheet" href="/vips/css/aos.css">
+    <!-- Vips Style -->
+    <link rel="stylesheet" href="/vips/css/vips.css?ver=<?php echo time(); ?>">
+
+    <!-- IE8 support for HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond./js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Core Script -->
+    <script src="/vips/js/swiper.min.js"></script>
+    <script src="/vips/js/aos.js"></script>
+    <!-- Plugin Script -->
+    <script src="/vips/js/jquery.min.js"></script>
+    <script src="/vips/js/slick.min.js"></script>
+    <script src="/vips/js/toggle.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header class="header clearfix">
+            <h1 class="logo">
+                <a href="#"><img src="/vips/images/header_logo.png" alt="상단로고"></a>
+            </h1>
+            <nav id="gnb">
+                <ul class="clearfix">
+                    <li><a href="#" onclick="return false">BRAND</a></li>
+                    <li><a href="#" onclick="return false">MENU</a></li>
+                    <li><a href="#" onclick="return false">MEMBERSHIP</a></li>
+                    <li><a href="#" onclick="return false">EVENT</a></li>
+                    <li><a href="#" onclick="return false">STORE</a></li>
+                    <li class="login"><a href="#">로그인</a></li>
+                </ul>
+            </nav>
+            <span class="menu_toggle_btn">
+                <span>토글버튼</span><span>토글버튼</span><span>토글버튼</span>
+            </span>
+        </header><!-- header -->
+        <visual class="visual">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide one">비주얼1</div>
+                    <div class="swiper-slide two">
+                        <video autoplay loop muted id="video">
+                            <source src="/vips/images/yumdelivery.mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">이전버튼</div>
+                <div class="swiper-button-next">다음버튼</div>
+            </div> 
+        </visual><!-- visual -->
+        <section class="content">
+            <section class="our_menu">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h2 class="sec_title">OUR MENU</h2>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                    <ul class="menu_list clearfix">
+                        <li>
+                            <a href="#" onclick="return false">
+                                <div class="info">
+                                    <h4>SMOKY YUMSTONE</h4>
+                                    <span>블랙앵거스의 마블링이 선사하는<br>풍미 가득한 스모키 얌스톤 스테이크</span>
+                                </div>
+                                <img src="/vips/images/menu1.png" alt="스테이크">
+                                <p>STEAK</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <div class="info">
+                                    <h4>GARDEN SALAD</h4>
+                                    <span>신선하고 건강한 샐러드</span>
+                                </div>
+                                <img src="/vips/images/menu2.png" alt="샐러드">
+                                <p>SALAD</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <div class="info">
+                                    <h4>SPANISH BBQ</h4>
+                                    <span>열정의 나라 스페인의 맛을 더한<br>환상적인 BBQ</span>
+                                </div>
+                                <img src="/vips/images/menu3.png" alt="비비큐">
+                                <p>BBQ</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="return false">
+                                <div class="info">
+                                    <h4>RED VELVET CUPCAKES</h4>
+                                    <span>레드벨벳 컵케이크에 올린<br>그린티 크림</span>
+                                </div>
+                                <img src="/vips/images/menu4.png" alt="디저트">
+                                <p>DESSERT</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section><!-- our_menu -->
+            <section class="news">
+                <div class="container clearfix">
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <h2 class="sec_title">NEWS</h2>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="news_left">
+                            <a href="#" onclick="return false"><img src="/vips/images/news1.png" alt="얌딜리버리"></a>
+                            <div class="text_left">
+                                <h4>YUM DELIVERY</h4>
+                                <p>프리미엄 딜리버리 서비스</p>
+                            </div>
+                        </div>
+                        <div class="news_right clearfix">
+                            <div class="news_right_t">
+                                <a href="#" onclick="return false"><img src="/vips/images/news2.png" alt="폭립" ></a>
+                                <div class="text_right">
+                                    <h4>TO-GO PORK RIBS</h4>
+                                    <p>빕스 간편식 시그니처 폭립</p>
+                                </div>
+                            </div>
+                            <div class="news_right_b">
+                                <a href="#" onclick="return false"><img src="/vips/images/news3.png" alt="테이스트업" ></a>
+                                <div class="text_right">
+                                    <h4>VIPS TASTE UP</h4>
+                                    <p>그릴 프리미엄 앤 씨푸드 매장</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- news -->
+            <section class="vips_premier clearfix">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <div class="store_info">
+                        <h2 class="sec_title">VIPS PREMIER</h2>
+                        <dl>
+                            <dt>빕스 프리미어 목동 41타워점</dt>
+                            <dd>41층의 스카이라운지에서 즐기는 360도 파노라마 뷰와<br>차원이 다른 프리미엄 스테이크와 페어링바</dd>
+                            <dd class="divider"></dd>
+                            <dt>영업시간</dt>
+                            <dd>11:30 - 22:00<br>(브레이크 타임 16:00~17:00)</dd>
+                            <dd class="divider"></dd>
+                            <dt>주소</dt>
+                            <dd>서울 양천구 목동동로 293 현대41타워 41층<br>빕스 프리미어 목동41타워점</dd>
+                        </dl>
+                    </div>
+                    <div class="store_pic">
+                        <a href="#" onclick="return false"><img src="/vips/images/vipspremier.png" alt="빕스프리미어"></a>
+                    </div>
+                </div>
+            </section><!-- vips_premier -->
+            <section class="membership clearfix">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="membership_title">
+                            <div class="text_area">
+                                <div class="text_title">
+                                    <h3>CJ ONE</h3>
+                                    <h2>MEMBERSHIP</h2>
+                                </div>
+                                <p class="text_info">CJ 통합 멤버십 서비스<br>혜택을 만나보세요</p>
+                                <p class="btn_more"><a href="#" onclick="return false">자세히 보기</a></p>
+                                <div class="line">
+                                    <span>테두리라인</span>
+                                    <span>테두리라인</span>
+                                    <span>테두리라인</span>
+                                    <span>테두리라인</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="membership_con">
+                            <ol class="clearfix">
+                                <li>
+                                    <div class="num">01</div>
+                                    <p class="membership_name">생일 축하 쿠폰</p>
+                                    <p class="membership_info">1년 1회, 1만원 할인 쿠폰 증정</p>
+                                </li>
+                                <li>
+                                    <div class="num">02</div>
+                                    <p class="membership_name">포인트 적립</p>
+                                    <p class="membership_info">CJ ONE 포인트 0.5% 적립<br>제휴 및 할인 시 0.5% 적립</p>
+                                </li>
+                                <li>
+                                    <div class="num">03</div>
+                                    <p class="membership_name">포인트 사용</p>
+                                    <p class="membership_info">1,000포인트 이상 보유 시<br>10포인트 단위로 현금처럼 사용</p>
+                                </li>
+                                <li>
+                                    <div class="num">04</div>
+                                    <p class="membership_name">보너스 포인트 추가 적립</p>
+                                    <p class="membership_info">CJ 제휴 브랜드 4개 이용 시 50%<br>5개 이용 시 100% 포인트 적립</p>
+                                </li>
+                                <li>
+                                    <div class="num">05</div>
+                                    <p class="membership_name">포인트 선물하기</p>
+                                    <p class="membership_info">가족, 친구에게 포인트 선물하고<br>행복을 나누세요</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>  
+            </section><!-- membership -->
+            <section class="cj_logo">
+                <div class="container">
+                    <div class="brand_list">
+                        <div class="logo_slider responsive clearfix">
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo1.png" alt="CJ푸드빌 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo2.png" alt="뚜레쥬르 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo3.png" alt="빕스버거 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo4.png" alt="더플레이스 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo5.png" alt="제일제면소 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo6.png" alt="계절밥상 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo7.png" alt="CJ푸드월드 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo8.png" alt="엔그릴 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo9.png" alt="서울타워 로고"></a>
+                            <a href="#" onclick="return false"><img src="/vips/images/cj_logo10.png" alt="부산타워 로고"></a>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- cj_logo -->
+        </section><!-- content -->
+        <footer class="footer">
+            <div class="footer_wrap clearfix">
+                <div class="footer_left">
+                    <h1 class="footer_logo">
+                        <a href="#"><img src="/vips/images/footer_logo.png" alt="하단로고"></a>
+                    </h1>
+                </div>
+                <div class="footer_right clearfix">
+                    <ul class="footer_con clearfix">
+                        <li><a href="#" onclick="return false">개인정보처리방침</a></li>
+                        <li><a href="#" onclick="return false">이용약관</a></li>
+                        <li><a href="#" onclick="return false">사이트맵</a></li>
+                        <li><a href="#" onclick="return false">채용안내</a></li>
+                        <li><a href="#" onclick="return false">1:1문의</a></li>
+                    </ul>
+                    <p>서울시 중구 마른내로34(초동 106-9번지)KT&G을지로타워 3, 9-11층 CJ푸드빌㈜</p><br>
+                    <p class="copyright">COPYRIGHT© 2021 CJ Foodville ALL RIGHT RESERVED.</p>
+                </div>
+            </div>
+        </footer><!-- footer -->
+    </div><!-- wrap -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!-- 비주얼 슬라이드 -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+    <!-- CJ 로고 슬라이드 -->
+    <script>
+        $(document).ready(function(){
+            $('.logo_slider').slick({
+            });
+        });
+    </script>
+
+    <script>
+        $('.responsive').slick({
+            autoplay: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1132,
+                    settings: {
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                        infinite: true,
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 360,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+</html>
